@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Aspen Dental: Home </title>
+      <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- LOAD THE LATEST VERSION OF JQUERY-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!-- *************** LOAD A GOOGLE FONT ****************** -->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css">
+      <!-- *************** STYLE SHEETS ****************** -->
+      <link href="css/styles.css" rel="stylesheet">
+      <!-- *************** SCRIPT TO MAKE THE MOBILE NAV EXPAND DOWN ****************** -->
+      <script>
+         $(document).ready(function(){
+         	$(".nav-button").click(function () {
+         	$(".nav-button,.primary-nav").toggleClass("open");
+         	});    
+         });
+      </script>
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <header class="clearfix">
+         <div class="logo">
+            <img src="images/logo.png" alt="logo" >
+            <h1>Aspen Dental</h1>
+            <h2>A Family Friently Practice</h2>
+         </div>
+         <ul class="social">
+            <li><a href="https://www.youtube.com/"><img src="images/social_tube.png"  alt="YouTube"/></a></li>
+            <li><a href="https://www.facebook.com/"><img src="images/social_face.png"  alt="Facebook"/></a></li>
+            <li><a href="https://twitter.com/"><img src="images/social_twit.png"  alt="Twitter"/></a></li>
+         </ul>
+         <nav>
+            <ul class="primary-nav">
+               <li><a href="index.html">Home</a></li>
+               <li class="active"><a href="repair.html">Repair Options</a></li>
+               <li><a href="prevention.html">Prevention</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- phone nav button -->
+            <button class="nav-button">Toggle Navigation</button>
+         </nav>
+      </header>
+      <main>
+         <div class="row">
+            <div class="column width12">
+               <h1>Repair Options</h1>
+            </div>
+            <!-- end of column-->
+         </div>
+         <!-- end of row -->
+         <div class="row">
+            <div class="column width12">
+               <p>We offer many repair options for our customers who have suffered tooth damage. Each option has different costs and longevity. Read through these options and then consult with out staff about the best option for you.</p>
+            </div>
+            <!-- end of column-->
+         </div>
+         <!-- end of row -->
+         <div class="row" id="bridge">
+            <div class="column width12">
+               <a href="#bridge" class="subnav-active">Brid<span class="hideSmall">ges</span></a>
+               <a href="#denture" class="subnav-link"><span class="hideSmall">Partial</span> Dent<span class="hideSmall">ures</span></a>
+               <a href="#replace" class="subnav-link">Repl<span class="hideSmall">acement</span></a>
+               <a href="#implant" class="subnav-link">Impl<span class="hideSmall">ants</span></a>
+               <h2>Bridges</h2>
+               <p>A bridge is used when one or more teeth have been lost. To repair and replace the gap with a tooth (pontic), first an impression is taken so that crowns can be made of the two teeth on both sides of the missing tooth. Then those teeth on either side of the gap are prepped for crowns. The two crowns support the pontic. A temporary bridge is made and placed until the permanent bridge is ready and cemented into place.</p>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row">
+            <div class="column width6">
+               <h3>Advantages:</h3>
+               <ul class="list-check-yes">
+                  <li>look, feel and function like natural teeth.</li>
+                  <li>don’t require removal for cleaning.</li>
+                  <li>cost less that implants.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+            <div class="column width6">
+               <h3>Disadvantages:</h3>
+               <ul class="list-check-no" >
+                  <li>likely to be more expensive than a removable partial denture.</li>
+                  <li>affect the teeth next to the missing tooth.</li>
+                  <li>may require extra effort to clean under the pontic.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row" id="denture">
+            <div class="column width12">
+               <a href="#bridge" class="subnav-link">Brid<span class="hideSmall">ges</span></a>
+               <a href="#denture" class="subnav-active"><span class="hideSmall">Partial</span> Dent<span class="hideSmall">ures</span></a>
+               <a href="#replace" class="subnav-link">Repl<span class="hideSmall">acement</span></a>
+               <a href="#implant" class="subnav-link">Impl<span class="hideSmall">ants</span></a>
+               <h2>Partial Dentures</h2>
+               <p>A removable partial denture can easily be taken out of the mouth for cleaning. Partial dentures usually have replacement teeth fixed to a plastic base that matches the color of your gums. The plastic base may cover a metal framework. Partial dentures often have some form of clasp that attaches to your natural teeth.</p>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row">
+            <div class="column width6">
+               <h3>Advantages:</h3>
+               <ul class="list-check-yes">
+                  <li>usually less expensive than fixed bridges or implants.</li>
+                  <li>usually easier to repair than fixed bridges.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+            <div class="column width6">
+               <h3>Disadvantages:</h3>
+               <ul class="list-check-no">
+                  <li>can be less stable than other choices.</li>
+                  <li>they can break or be lost.</li>
+                  <li>can be uncomfortable.</li>
+                  <li>some people are embarrassed to take out their teeth at night and for cleaning.</li>
+                  <li>may need more frequent replacement than other options.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row" id="replace">
+            <div class="column width12">
+               <a href="#bridge" class="subnav-link">Brid<span class="hideSmall">ges</span></a>
+               <a href="#denture" class="subnav-link"><span class="hideSmall">Partial</span> Dent<span class="hideSmall">ures</span></a>
+               <a href="#replace" class="subnav-active">Repl<span class="hideSmall">acement</span></a>
+               <a href="#implant" class="subnav-link">Impl<span class="hideSmall">ants</span></a>
+               <h2>Replacement</h2>
+               <p>When missing one or more teeth, you are very aware of their importance to your appearance and health in general. Teeth are designed to work together to help you chew, speak and smile. The loss of a back tooth may cause your mouth to shift and your face to look older. Fortunately, missing teeth can be replaced with implants, crowns, bridges and partials.</p>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row">
+            <div class="column width6">
+               <h3>Advantages:</h3>
+               <ul class="list-check-yes">
+                  <li>usually less expensive</li>
+                  <li>take less time to correct</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+            <div class="column width6">
+               <h3>Disadvantages:</h3>
+               <ul class="list-check-no">
+                  <li>don't usually last as long.</li>
+                  <li>they can break or be lost.</li>
+                  <li>can be uncomfortable.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row" id="implant">
+            <div class="column width12">
+               <a href="#bridge" class="subnav-link">Brid<span class="hideSmall">ges</span></a>
+               <a href="#denture" class="subnav-link"><span class="hideSmall">Partial</span> Dent<span class="hideSmall">ures</span></a>
+               <a href="#replace" class="subnav-link">Repl<span class="hideSmall">acement</span></a>
+               <a href="#implant" class="subnav-active">Impl<span class="hideSmall">ants</span></a>
+               <h2>Implants</h2>
+               <p>Implants can replace a single tooth, several teeth, or support a full set of dentures. Implants are posts that are surgically placed in the upper or lower jaw, where they function as a sturdy anchor for replacement teeth.
+                  Generally there are three phases of implant treatment. This takes from 4 to 6 months depending on healing time.
+               </p>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+         <div class="row">
+            <div class="column width6">
+               <h3>Advantages:</h3>
+               <ul class="list-check-yes">
+                  <li>An implant is most similar to a natural tooth.</li>
+                  <li>Nearby teeth do not have to be involved in the placement procedure.</li>
+                  <li>Implants may last for many years, even decades.</li>
+                  <li>Some types of implants and artificial teeth or dentures can be placed in just one or two visits.</li>
+                  <li>Implants may help prevent shrinkage of the jawbone from tooth loss.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+            <div class="column width6">
+               <h3>Disadvantages:</h3>
+               <ul class="list-check-no">
+                  <li>Implants are not right for everyone since they require surgery.</li>
+                  <li>Implant placement may take longer and may require more dental visits than other options.</li>
+                  <li>Implants may cost more than other treatments.</li>
+               </ul>
+            </div>
+            <!-- end of column -->
+         </div>
+         <!-- end row -->
+      </main>
+      <!-- end of main -->  
+      <footer>
+					<p> Copyright &copy; 2016  &bull; Shafiqul Islam &bull; Fuck Off &bull; 
+					<a class="tel" tabindex="-1" href="tel:+880123456789">+880123456789</a></p>
+			</footer>
+   </body>
+</html>

@@ -1,0 +1,30 @@
+header .logo img {
+	width: auto;	
+}
+
+header .social {
+	position: relative;
+	float: right;
+
+}
+	
+main {
+	.width6 {
+		float: left;
+		width: 6 / 12 * 100%;
+	}
+}
+
+.hideSmall {display: inline;}
+
+.multicol {
+	@include columns(2, $dkgrey);
+}
+
+@for $i from 1 to 12 {
+	$w: $i/12 * 100%;
+	.large-#{$i} {
+		width: $w;
+		float: left;
+	}
+}
